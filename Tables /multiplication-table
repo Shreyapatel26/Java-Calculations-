@@ -1,0 +1,25 @@
+// Input any number and get its multiplication table..!
+
+import java.util.*;
+public class Program
+{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        System.out.println("🌬️[Your input = " + n +"]💨");
+        for(int i=1; i<=30; i++) {
+            System.out.print("_"); }
+        
+        //Multiplication Table
+        System.out.println("\n\n💫 MULTIPLICATION TABLE OF " + n + ":\n");
+        for(int i=1; i<11; i++) {
+            System.out.println(n+" × " + i + " = " + n*i); }
+        for(int i=1; i<=30; i++) {
+            System.out.print("_"); }
+
+        System.out.print("🌈");
+        System.out.println("\n\nYOUR VISIT IS APPRECIATED!❤️");
+    }
+}
+
+
